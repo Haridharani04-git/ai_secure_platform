@@ -5,15 +5,19 @@ AI Secure Data Intelligence Platform is a FastAPI-based backend application desi
 ---
 
 ## 🚀 Features
-> 📂 Upload log files via API
-> 🔍 Detect sensitive data:
+>  Upload log files via API
+>  Detect sensitive data:
   >> Emails
   >> Passwords
   >> API Keys
-> ⚠️ Risk classification (Low / High / Critical)
-> 🤖 AI-powered insights generation
-> 📊 Structured JSON response
-> 🌐 Interactive API testing using Swagger UI
+>  Risk classification (Low / High / Critical)
+>  AI-powered insights generation
+>  Structured JSON response
+>  Interactive API testing using Swagger UI
+>  Log file analysis
+>  Multi-input (file + text)
+> Streamlit UI
+> Deployed API
 
 ---
 
@@ -23,6 +27,9 @@ AI Secure Data Intelligence Platform is a FastAPI-based backend application desi
 > Uvicorn
 
 ---
+
+## Live API
+https://ai-secure-platform.onrender.com
 
 ## 📂 Project Structure
 ai_secure_platform/
