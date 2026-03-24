@@ -6,7 +6,7 @@ text_input = st.text_area("Else you can type log text here")
 uploaded_file = st.file_uploader("Choose a file", type=["txt", "log"])
 if st.button("Analyze"):
     if uploaded_file is None and not text_input:
-        st.warning("Please upload a file or enter text")
+        st.warning("Please upload a file or enter text") 
     elif uploaded_file is not None and text_input:
         st.warning("Please use either file upload OR text input")
     else:
