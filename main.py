@@ -4,11 +4,9 @@ from detector import analyze_log
 import logging
 app = FastAPI()
 logging.basicConfig(level=logging.INFO)
-
 @app.get("/")
 def home():
     return {"message": "My project is running"}
-
 @app.post("/analyze")
 async def analyze(
     file: Optional[UploadFile] = File(None),
@@ -34,7 +32,5 @@ async def analyze(
         result["action"] = "Review required"
     else:
         result["action"] = "Safe"
-
     logging.info("Analysis completed")
-
     return result
